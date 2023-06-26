@@ -25,3 +25,4 @@ const Commande = mongoose.model('Commande', CommandeSchema);
 
 // Exportez le modèle "article"
 module.exports = Commande;
+//&

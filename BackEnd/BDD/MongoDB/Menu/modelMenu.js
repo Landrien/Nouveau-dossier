@@ -35,4 +35,4 @@ module.exports = Menu;
   "Nom_du_plat": "Calzone",
   "Description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
   "Prix" : "18"
-}*/
+}*///&
