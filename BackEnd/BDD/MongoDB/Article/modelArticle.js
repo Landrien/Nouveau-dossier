@@ -21,3 +21,4 @@ const Article = mongoose.model('Article', ArticleSchema);
 
 // Exportez le modèle "article"
 module.exports = Article;
+//&
