@@ -12,33 +12,33 @@ const Login = () => {
                     alt='login' />
 
                 <form className='authform'>
-                    <h1>Login</h1>
+                    <h1>Connecter</h1>
                     <div className='formgroup'>
                         <label htmlFor='email'>Email</label>
                         <input type='email' id='email' />
                     </div>
 
                     <div className='formgroup'>
-                        <label htmlFor='password'>Password</label>
+                        <label htmlFor='password'>Mot de Passe</label>
                         <input type='password' id='password' />
                     </div>
 
                     <Link to='/forgotpassword'
                         className='stylenone'
                     >
-                        <p>Forgot password?</p>
+                        <p>Mot de Passe Oublié?</p>
                     </Link>
                     <Link to='/'
                         className='stylenone'
 
                     >
-                        <button className='btn'>Login</button>
+                        <button className='btn'>Se connecter</button>
                     </Link>
-                    <h2 className='or'>OR</h2>
+                    <h2 className='or'>OU</h2>
                     <Link to='/signup'
                         className='stylenone'
                     >
-                        <button className='btn'>Signup</button>
+                        <button className='btn'>S'inscrire</button>
                     </Link>
                 </form>
             </div>

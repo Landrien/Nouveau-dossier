@@ -12,14 +12,14 @@ const Signup = () => {
                     alt='signup' />
 
                 <form className='authform'>
-                    <h1>Signup</h1>
+                    <h1>Se connecter</h1>
                     <div className='form-group-row'>
                         <div className='formgroup'>
-                            <label htmlFor='fname'>First Name</label>
+                            <label htmlFor='fname'>Prénom</label>
                             <input type='text' id='fname' />
                         </div>
                         <div className='formgroup'>
-                            <label htmlFor='lname'>Last Name</label>
+                            <label htmlFor='lname'>Nom</label>
                             <input type='text' id='lname' />
                         </div>
                     </div>
@@ -30,11 +30,11 @@ const Signup = () => {
 
                     <div className='form-group-row'>
                         <div className='formgroup'>
-                            <label htmlFor='password'>Password</label>
+                            <label htmlFor='password'>Mot de Passe</label>
                             <input type='password' id='password' />
                         </div>
                         <div className='formgroup'>
-                        <label htmlFor='cpassword'>Confirm Password</label>
+                        <label htmlFor='cpassword'>Confirmer Mot de Passe</label>
                         <input type='password' id='cpassword' />
                     </div>
                     </div>
@@ -42,12 +42,12 @@ const Signup = () => {
                     <Link to='/login'
                         className='stylenone'
                     >
-                        <p>Already have an account?</p>
+                        <p>Vous avez déjà un compte?</p>
                     </Link>
                     <Link to='/signup'
                         className='stylenone'
                     >
-                        <button className='btn'>Signup</button>
+                        <button className='btn'>S'inscrire</button>
                     </Link>
                 </form>
             </div>

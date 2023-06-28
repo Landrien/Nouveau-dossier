@@ -4,16 +4,16 @@ import './AccountSettings.css'
 const AccountSettings = () => {
   return (
     <div className='accountsettings'>
-      <h1 className='mainhead1'>Personal Information</h1>
+      <h1 className='mainhead1'>Information Personnel</h1>
 
       <div className='form'>
         <div className='form-group'>
-          <label htmlFor='name'>Your Name <span>*</span></label>
+          <label htmlFor='name'>Votre Nom <span>*</span></label>
           <input type='text' name='name' id='name' />
         </div>
 
         <div className='form-group'>
-          <label htmlFor='phone'>Phone/Mobile <span>*</span></label>
+          <label htmlFor='phone'>Téléphone <span>*</span></label>
           <input type='text' name='phone' id='phone'
 
           />
@@ -31,7 +31,7 @@ const AccountSettings = () => {
 
       <button className='mainbutton1'
         
-        >Save Changes</button>
+        >Enregistrer les modifications</button>
     </div>
   )
 }

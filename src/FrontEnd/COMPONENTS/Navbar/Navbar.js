@@ -33,7 +33,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <img src={logo} alt='logo' className='logo' />
 
                 <div className='searchbar'>
-                    <input typ="text" placeholder="Search for products and categries" className='search' />
+                    <input typ="text" placeholder="Recherche de produits et catégoriques" className='search' />
 
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -64,17 +64,17 @@ const Navbar = ({ reloadnavbar }) => {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu>
-                            <Dropdown.Item href="/login">Login</Dropdown.Item>
-                            <Dropdown.Item href="/signup">Signup</Dropdown.Item>
-                            <Dropdown.Item href="/user/accountsettings">Profile</Dropdown.Item>
-                            <Dropdown.Item href="#">Logout</Dropdown.Item>
+                            <Dropdown.Item href="/login">Se connecter</Dropdown.Item>
+                            <Dropdown.Item href="/signup">S’inscrire</Dropdown.Item>
+                            <Dropdown.Item href="/user/accountsettings">Profil</Dropdown.Item>
+                            <Dropdown.Item href="#">Se déconnecter</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                 </div>
             </div>
             <div className='s2'>
                 <Link to='/'>
-                    <a>Home</a>
+                    <a>Menu</a>
                 </Link>
                 <Dropdown>
                     <Dropdown.Toggle variant="" id="dropdown-basic">
@@ -82,27 +82,28 @@ const Navbar = ({ reloadnavbar }) => {
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Fresh Vegetables</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Fresh Fruits</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">House Cleaning</Dropdown.Item>
+                        <Dropdown.Item href="#/action-1">Pizza</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Hamburger</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Asiatique</Dropdown.Item>
+                        <Dropdown.Item href="#/action-4">Plat</Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
                 <Link to='/about'>
-                    <a>About Us</a>
+                    <a>Qui sommes-nous</a>
                 </Link>
                 <Link to='/contact'>
-                    <a>Contact Us</a>
+                    <a>Contactez-nous</a>
                 </Link>
                 <Dropdown>
                     <Dropdown.Toggle variant="" id="dropdown-basic">
-                        More
+                        Plus
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu>
                         <Dropdown.Item href="/FAQ">FAQ</Dropdown.Item>
-                        <Dropdown.Item href="/privacypolicy">Privacy Policy</Dropdown.Item>
+                        <Dropdown.Item href="/privacypolicy">Politique de confidentialité</Dropdown.Item>
                         <Dropdown.Item href="/termsandconditions">
-                            Terms & Conditions
+                        Termes et conditions
                         </Dropdown.Item>
                     </Dropdown.Menu>
                 </Dropdown>
@@ -134,7 +135,7 @@ const Navbar = ({ reloadnavbar }) => {
                                 <Link to='/'
                                     className='stylenone'
                                 >
-                                    Home
+                                    Menu
                                 </Link>
                             </li>
 
@@ -144,18 +145,19 @@ const Navbar = ({ reloadnavbar }) => {
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item href="#/action-1">Fresh Vegetables</Dropdown.Item>
-                                    <Dropdown.Item href="#/action-2">Fresh Fruits</Dropdown.Item>
-                                    <Dropdown.Item href="#/action-3">House Cleaning</Dropdown.Item>
+                                    <Dropdown.Item href="#/action-1">Pizza</Dropdown.Item>
+                                    <Dropdown.Item href="#/action-2">Hamburger</Dropdown.Item>
+                                    <Dropdown.Item href="#/action-3">Asiatique</Dropdown.Item>
+                                    <Dropdown.Item href="#/action-4">Plat</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown></li>
 
                             <li> <Link to='/about' className='stylenone'>
-                                <a>About Us</a>
+                                <a>Qui sommes-nous</a>
                             </Link></li>
 
                             <li> <Link to='/contact' className='stylenone'>
-                                <a>Contact Us</a>
+                                <a>Contactez-nous</a>
                             </Link></li>
 
                             <li>
@@ -179,10 +181,10 @@ const Navbar = ({ reloadnavbar }) => {
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
-                                        <Dropdown.Item href="/login">Login</Dropdown.Item>
-                                        <Dropdown.Item href="/signup">Signup</Dropdown.Item>
-                                        <Dropdown.Item href="/user/accountsettings">Profile</Dropdown.Item>
-                                        <Dropdown.Item href="#">Logout</Dropdown.Item>
+                                        <Dropdown.Item href="/login">Se connecter</Dropdown.Item>
+                                        <Dropdown.Item href="/signup">S'inscrire</Dropdown.Item>
+                                        <Dropdown.Item href="/user/accountsettings">Profil</Dropdown.Item>
+                                        <Dropdown.Item href="#">Se déconnecter</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
                             </li>
@@ -190,14 +192,14 @@ const Navbar = ({ reloadnavbar }) => {
                             <li>
                                 <Dropdown>
                                     <Dropdown.Toggle variant="" id="dropdown-basic">
-                                        More
+                                        Plus
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu>
                                         <Dropdown.Item href="/FAQ">FAQ</Dropdown.Item>
-                                        <Dropdown.Item href="/privacypolicy">Privacy Policy</Dropdown.Item>
+                                        <Dropdown.Item href="/privacypolicy">Politique de confidentialité</Dropdown.Item>
                                         <Dropdown.Item href="/termsandconditions">
-                                            Terms & Conditions
+                                            Termes et conditions
                                         </Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>

@@ -10,49 +10,49 @@ const YourOrders = () => {
         {
             id: 112345,
             date: '12/12/2021',
-            status: 'Delivered',
+            status: 'Délivré',
             total: 1000
         },
         {
             id: 112346,
             date: '12/12/2021',
-            status: 'On the way',
+            status: 'Sur le chemin',
             total: 1600
         },
         {
             id: 112347,
             date: '12/12/2021',
-            status: 'Delivered',
+            status: 'Délivré',
             total: 2000
         },
         {
             id: 112348,
             date: '12/12/2021',
-            status: 'Cancelled',
+            status: 'Annulé',
             total: 100
         },
         {
             id: 112345,
             date: '12/12/2021',
-            status: 'Delivered',
+            status: 'Délivré',
             total: 1000
         },
         {
             id: 112346,
             date: '12/12/2021',
-            status: 'On the way',
+            status: 'Sur le chemin',
             total: 1600
         },
         {
             id: 112347,
             date: '12/12/2021',
-            status: 'Delivered',
+            status: 'Délivré',
             total: 2000
         },
         {
             id: 112348,
             date: '12/12/2021',
-            status: 'Cancelled',
+            status: 'Annulé',
             total: 100
         }
     ]
@@ -67,11 +67,11 @@ const YourOrders = () => {
             <table className='yourorderstable'>
                 <thead>
                     <tr>
-                        <th scope='col'>Oder ID</th>
+                        <th scope='col'>Commande ID</th>
                         <th scope='col'>Date</th>
                         <th scope='col'>Status</th>
                         <th scope='col'>Total</th>
-                        <th scope='col'>Invoice</th>
+                        <th scope='col'>Facture</th>
                     </tr>
                 </thead>
 

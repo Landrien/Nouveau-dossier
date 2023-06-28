@@ -41,7 +41,7 @@ const BannerSlider = () => {
                                 <div className='content'>
                                     <h1>{item.title}</h1>
                                     <span>{item.description}</span>
-                                    <button>Shop More</button>
+                                    <button>Acheter Plus</button>
                                 </div>
                             </div>
                         )

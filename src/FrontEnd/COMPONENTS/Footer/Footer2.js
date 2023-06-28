@@ -10,44 +10,44 @@ const Footer2 = () => {
       <div className='footerin1'>
         <div className='f1'>
           <img src={logo} alt='logo' className='logo' />
-          <p>Fit Grocery is a leading online grocery store in the USA. We are committed to providing the best quality products at the best prices.</p>
+          <p>DeliDash est un service de livraison sur Ile-de-France. Nous nous engageons à fournir le plus rapidement possible.</p>
           <img src={social} alt='social' className='social' />
 
         </div>
         <div className='f2'>
-          <h3>About Us</h3>
+          <h3>Fonctionnement de DeliDash</h3>
           <Link to='/about' className='stylenone'>
-            <p>About us</p>
+            <p>Fonctionnement de DeliDash</p>
           </Link>
           <Link to='/contact' className='stylenone'>
-            <p>Contact us</p>
+            <p>Contactez-nous</p>
           </Link>
-          <p>About team</p>
-          <p>Customer Support</p>
+          <p>À propos de l’équipe</p>
+          <p>Soutien à la clientèle</p>
         </div>
         <div className='f2'>
 
           <h3>Our Information</h3>
           <Link to='/privacypolicy' className='stylenone'>
-            <p>Privacy policy</p>
+            <p>Politique de confidentialité</p>
           </Link>
           <Link to='/termsandconditions' className='stylenone'>
-            <p>Terms & conditions</p>
+            <p>Termes et conditions</p>
           </Link>
-          <p>Return Policy</p>
-          <p>Site Map</p>
+          <p>Politique de retour</p>
+          <p>Plan du site</p>
 
         </div>
         <div className='f2'>
-          <h3>Community</h3>
-          <p>Announcements</p>
-          <p>Answer center</p>
-          <p>Discussion boards</p>
-          <p>Giving works</p>
+          <h3>Communauté</h3>
+          <p>Annonces</p>
+          <p>Centre de réponses</p>
+          <p>Forums de discussion</p>
+          <p>Donner des œuvres</p>
         </div>
         <div className='f2'>
-          <h3>Subscribe Now</h3>
-          <p>Subscribe your email for newsletter and featured news based on your interest</p>
+        <h3>Abonnez-vous maintenant</h3>
+          <p>Abonnez-vous avec votre e-mail pour recevoir la newsletter et les nouvelles en vedette en fonction de vos intérêts</p>
           <div className='inputcontainer'>
             <span className='icon1'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -55,7 +55,7 @@ const Footer2 = () => {
               </svg>
 
             </span>
-            <input type='text' placeholder='Enter your email' />
+            <input type='text' placeholder='Entrer votre mail' />
             <span className='icon2'>
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
@@ -66,7 +66,7 @@ const Footer2 = () => {
         </div>
       </div>
       <div className='footerin2'>
-        <h3>© Copyright 2023 Fit Grocery, Inc.  All rights reserved</h3>
+        <h3>© Copyright 2023 DeliDash, Inc.  Tous droits réservés</h3>
         <img src={payimg} alt='payimg' />
       </div>
     </div>

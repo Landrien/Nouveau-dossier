@@ -16,31 +16,30 @@ const Contact = () => {
             <Navbar reloadnavbar={false}/>
             <SingleBanner
                 bannerimage='https://images.unsplash.com/photo-1495480137269-ff29bd0a695c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80'
-                heading="Contact Us"
+                heading="Contactez-nous"
             />
             <div className='pgleft pgcommon'>
-                <img src='https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' alt='noimg' />
+                <img src='https://www.ensuite.fr/4404-medium_default/plateau-repas-poulet-sesame.jpg' alt='noimg' />
 
                 <div>
-                    <h1>Our Story</h1>
+                    <h1>Delidash et son histoire</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
                 </div>
             </div>
             <div className='pgright pgcommon'>
-                <img src='https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' alt='noimg' />
+                <img src='https://the-bodyguard.fr/wp-content/uploads/2021/07/partager-son-repas-en-famille.jpg' />
 
                 <div>
-                    <h1>Who are we</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
+                    <h1>Notre clientèle</h1>
+                    <p>Parce que la livraison de plats et de courses est une mission hyperlocale, nous avons choisi de développer notre offre clientèle quartier par quartier. Nous avons passé des années à étudier les besoins et envies de notre clientèle afin d’offrir une sélection pour tous les goûts et pour tous les budgets. Sélection, disponibilité, expérience et rapport qualité-prix… Notre promesse à la clientèle est de ne lui proposer que le meilleur, tout en établissant une véritable connexion avec notre marque.</p>
                 </div>
             </div>
 
             <form className='extrapageform'>
-                <h1 className='formheading'>Get in Touch</h1>
+                <h1 className='formheading'>Contactez-nous</h1>
                 <div className='fromgroup'>
-                    <label htmlFor="">Name</label>
+                    <label htmlFor="">Nom</label>
                     <input type="text" />
                 </div>
 
@@ -55,7 +54,7 @@ const Contact = () => {
                 </div>
 
                 <div className='fromgroup'>
-                    <label htmlFor="">Rating</label>
+                    <label htmlFor="">Notation</label>
                     <div className='rating'>
                         <div className='star'
                             onClick={() => {
@@ -138,12 +137,12 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <button>Submit</button>
+                <button>Envoyer</button>
             </form>
 
             <Footer1 />
             <Footer2 />
-            Contact</div>
+            Contacter</div>
     )
 }
 

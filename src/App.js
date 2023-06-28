@@ -1,20 +1,20 @@
 import React from 'react'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
-import Home from './PAGES/HomePage/Home'
+import Home from './FrontEnd/PAGES/HomePage/Home'
 import './App.css'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ProductPage from './PAGES/Product/ProductPage';
-import About from './PAGES/Extra/About';
-import Contact from './PAGES/Extra/Contact';
-import Login from './PAGES/Auth/Login';
-import Signup from './PAGES/Auth/Signup';
-import ForgotPassword from './PAGES/Auth/ForgotPassword';
-import Cart from './PAGES/Cart/Cart';
-import UserProfile from './PAGES/User/UserProfile';
-import FAQ from './PAGES/Extra/FAQ';
-import Termsandconditions from './PAGES/Extra/Termsandconditions';
-import PrivacyPolicy from './PAGES/Extra/PrivacyPolicy';
+import ProductPage from './FrontEnd/PAGES/Product/ProductPage';
+import About from './FrontEnd/PAGES/Extra/About';
+import Contact from './FrontEnd/PAGES/Extra/Contact';
+import Login from './FrontEnd/PAGES/Auth/Login';
+import Signup from './FrontEnd/PAGES/Auth/Signup';
+import ForgotPassword from './FrontEnd/PAGES/Auth/ForgotPassword';
+import Cart from './FrontEnd/PAGES/Cart/Cart';
+import UserProfile from './FrontEnd/PAGES/User/UserProfile';
+import FAQ from './FrontEnd/PAGES/Extra/FAQ';
+import Termsandconditions from './FrontEnd/PAGES/Extra/Termsandconditions';
+import PrivacyPolicy from './FrontEnd/PAGES/Extra/PrivacyPolicy';
 const App = () => {
   return (
     <BrowserRouter>

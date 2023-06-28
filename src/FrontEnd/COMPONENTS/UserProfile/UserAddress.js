@@ -24,7 +24,7 @@ const UserAddress = () => {
     return (
         <div className='useraddress'>
             {
-                !show && <h1 className='mainhead1'>Your Address</h1>
+                !show && <h1 className='mainhead1'>Votre Adresse</h1>
             }
             {
                 !show &&
@@ -68,10 +68,10 @@ const UserAddress = () => {
                 show &&
 
                 <div className='addnew'>
-                    <h1 className='mainhead1'>Add New Address</h1>
+                    <h1 className='mainhead1'>Ajouter Nouvelle Addresse</h1>
                     <div className='form'>
                         <div className='form-group'>
-                            <label htmlFor='postalcode'>Postal Code</label>
+                            <label htmlFor='postalcode'>Code Postal</label>
                             <input type="text" />
                         </div>
 
@@ -84,17 +84,17 @@ const UserAddress = () => {
                        */}
 
                         <div className='form-group'>
-                            <label htmlFor='addressline1'>Address Line 1</label>
+                            <label htmlFor='addressline1'>Addresse Ligne 1</label>
                             <input type="text" />
                         </div>
 
                         <div className='form-group'>
-                            <label htmlFor='addressline2'>Address Line 2</label>
+                            <label htmlFor='addressline2'>Addresse Ligne 2</label>
                             <input type="text" />
                         </div>
 
                         <div className='form-group'>
-                            <label htmlFor='addressline3'>Address Line 3</label>
+                            <label htmlFor='addressline3'>Addresse Ligne 3</label>
                             <input type="text" />
                         </div>
                     </div>

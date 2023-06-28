@@ -58,20 +58,20 @@ const OrderSuccessful = ({ orderid, message, redirecto }) => {
                 </div>
 
                 <div className='c2'>
-                    <h2>Order Summary</h2>
+                    <h2>Récapitulatif de la commande</h2>
                     <div>
-                        <p>Order Number</p>
+                        <p>Récapitulatif de la commande</p>
                         <p>{orderdata?.OrderNo}</p>
                     </div>
                     <div>
-                        <p>Order Date</p>
+                        <p>Date de commande</p>
                         <p>{
                             orderdata.OrderDate
                         }</p>
                     </div>
 
                     <div>
-                        <p>Name</p>
+                        <p>Nom</p>
                         <p>{
                             orderdata.CustomerName
                         }</p>
@@ -87,23 +87,23 @@ const OrderSuccessful = ({ orderid, message, redirecto }) => {
                     </div>
 
                     <div>
-                        <p>Order Subtotal</p>
+                        <p>Sous-total de la commande</p>
                         <p>$ {orderdata.SubTotal}</p>
                     </div>
 
                     <div>
-                        <p>Payment Method</p>
+                        <p>Mode de paiement</p>
                         <p>{orderdata.PaymentType}</p>
                     </div>
 
                     <div>
-                        <p>Shipping Address</p>
+                        <p>Adresse de livraison</p>
                         <p>{orderdata.CustomerShipToAddress
                         }</p>
                     </div>
 
                     <div>
-                        <p>Shipping Charges</p>
+                        <p>Frais d’expédition</p>
                         <p>$ {orderdata.ShippingCharges}</p>
                     </div>
 
@@ -124,10 +124,10 @@ const OrderSuccessful = ({ orderid, message, redirecto }) => {
                         <thead>
                             <tr>
                                 <th>Sno.</th>
-                                <th>Product</th>
-                                <th>Price</th>
-                                <th>Quantity</th>
-                                <th>Total Price</th>
+                                <th>Produit</th>
+                                <th>Prix</th>
+                                <th>Quantité</th>
+                                <th>Total Prix</th>
                             </tr>
                         </thead>
 
@@ -153,12 +153,12 @@ const OrderSuccessful = ({ orderid, message, redirecto }) => {
 
                 <div className='totalcont'>
                     <div>
-                        <p>Subtotal</p>
+                        <p>Sous-total</p>
                         <p>$ {orderdata.SubTotal}</p>
                     </div>
 
                     <div>
-                        <p>Shipping</p>
+                        <p>Livraison</p>
                         <p>$ {orderdata.ShippingCharges}</p>
                     </div>
 

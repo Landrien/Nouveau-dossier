@@ -12,7 +12,7 @@ const ForgotPassword = () => {
                     alt='signup' />
 
                 <form className='authform'>
-                    <h1>Forgot Password</h1>
+                    <h1>Mot de passe oublié</h1>
                    
                     <div className='formgroup'>
                         <label htmlFor='email'>Email</label>
@@ -21,11 +21,11 @@ const ForgotPassword = () => {
 
                     <div className='form-group-row'>
                         <div className='formgroup'>
-                            <label htmlFor='password'>Password</label>
+                            <label htmlFor='password'>Mot de Passe</label>
                             <input type='password' id='password' />
                         </div>
                         <div className='formgroup'>
-                        <label htmlFor='cpassword'>Confirm New Password</label>
+                        <label htmlFor='cpassword'>Confirmer Nouveau Mot de Passe</label>
                         <input type='password' id='cpassword' />
                     </div>
                     </div>
@@ -33,12 +33,12 @@ const ForgotPassword = () => {
                     <Link to='/login'
                         className='stylenone'
                     >
-                        <p>Try Login again?</p>
+                        <p>Réessayez de vous connecter?</p>
                     </Link>
                     <Link to='/signup'
                         className='stylenone'
                     >
-                        <button className='btn'>Verify</button>
+                        <button className='btn'>Vérifier</button>
                     </Link>
                 </form>
             </div>

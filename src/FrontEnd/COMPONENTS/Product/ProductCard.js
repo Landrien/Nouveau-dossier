@@ -98,7 +98,7 @@ const ProductCard = ({ data }) => {
                 addtocart()
               }}
             >
-              Add to cart
+              Ajouter au panier
             </button>
           </div>
           :
