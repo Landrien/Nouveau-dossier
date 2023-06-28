@@ -64,3 +64,4 @@ Si vous achetez un Article non périssable auprès d’un de nos Partenaires, ce
 }
 
 export default LegalNotice
+//&

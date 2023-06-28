@@ -80,3 +80,5 @@ Des fonctionnalités spécifiques sur les applications mobiles et/ou les sites i
 }
 
 export default Termsandconditions
+
+//&
