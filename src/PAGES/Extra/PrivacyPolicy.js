@@ -81,3 +81,4 @@ Si le traitement de vos informations de notre part ne vous apporte pas satisfact
 }
 
 export default PrivacyPolicy
+//&
