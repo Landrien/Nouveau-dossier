@@ -15,7 +15,7 @@ const Contact = () => {
         <div className='extrapage'>
             <Navbar reloadnavbar={false}/>
             <SingleBanner
-                bannerimage='https://images.unsplash.com/photo-1495480137269-ff29bd0a695c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80'
+                bannerimage='https://media.istockphoto.com/id/618546412/fr/photo/pizza-et-hamburger-sur-fond-de-bois.jpg?s=612x612&w=0&k=20&c=SgI223fGKZ-GSclQoKPdSuGtQL3dmpuGXJbRnUeznl0='
                 heading="Contactez-nous"
             />
             <div className='pgleft pgcommon'>

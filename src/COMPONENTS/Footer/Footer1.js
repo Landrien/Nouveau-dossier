@@ -10,7 +10,7 @@ const Footer1 = () => {
             <div className='right'>
                 <h1>Votre repas livré où vous voulez
                 </h1>
-                <p>Nous livrons des repas chaud ou froid à votre porte.
+                <p>Nous livrons des repas chauds ou froids à votre porte.
                 </p>
             </div>
         </div>

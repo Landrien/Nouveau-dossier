@@ -4,7 +4,7 @@ import './AccountSettings.css'
 const AccountSettings = () => {
   return (
     <div className='accountsettings'>
-      <h1 className='mainhead1'>Information Personnel</h1>
+      <h1 className='mainhead1'>Informations Personnelles</h1>
 
       <div className='form'>
         <div className='form-group'>

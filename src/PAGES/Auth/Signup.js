@@ -8,11 +8,11 @@ const Signup = () => {
             <Navbar reloadnavbar={false}/>
 
             <div className='authcont'>
-                <img src='https://images.unsplash.com/photo-1495480137269-ff29bd0a695c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80'
+                <img src='https://img.freepik.com/photos-gratuite/vue-dessus-fast-food-mix-batonnets-mozzarella-club-sandwich-hamburger-pizza-aux-champignons-pizza-cesar-salade-crevettes-frites-ketchup-mayo-sauces-au-fromage-table_141793-3998.jpg'
                     alt='signup' />
 
                 <form className='authform'>
-                    <h1>Se connecter</h1>
+                    <h1>S'inscrire</h1>
                     <div className='form-group-row'>
                         <div className='formgroup'>
                             <label htmlFor='fname'>Prénom</label>
