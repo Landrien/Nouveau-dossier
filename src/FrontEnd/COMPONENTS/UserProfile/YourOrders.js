@@ -60,7 +60,7 @@ const YourOrders = () => {
     const [ordersuccesscont, setordersuccesscont] = useRecoilState(orderSuccessfulProvider)
     return (
         <div className='yourorders'>
-            <h1 className='mainhead1'>Your Orders</h1>
+            <h1 className='mainhead1'>Vos commandes</h1>
             {
                 ordersuccesscont && <OrderSuccessful orderid={selectedorderid} message={`Order ID: ${selectedorderid}`} />
             }
@@ -69,7 +69,7 @@ const YourOrders = () => {
                     <tr>
                         <th scope='col'>Commande ID</th>
                         <th scope='col'>Date</th>
-                        <th scope='col'>Status</th>
+                        <th scope='col'>Statut</th>
                         <th scope='col'>Total</th>
                         <th scope='col'>Facture</th>
                     </tr>
@@ -96,7 +96,7 @@ const YourOrders = () => {
                                             setselectedorderid(item.id)
                                             setordersuccesscont(true)
                                         }}
-                                    >View</button>
+                                    >Vue</button>
                                 </td>
                             </tr>
                         )
@@ -108,3 +108,4 @@ const YourOrders = () => {
 }
 
 export default YourOrders
+//&

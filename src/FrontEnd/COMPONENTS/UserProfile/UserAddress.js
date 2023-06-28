@@ -84,17 +84,17 @@ const UserAddress = () => {
                        */}
 
                         <div className='form-group'>
-                            <label htmlFor='addressline1'>Addresse Ligne 1</label>
+                            <label htmlFor='addresse1'>Addresse Ligne 1</label>
                             <input type="text" />
                         </div>
 
                         <div className='form-group'>
-                            <label htmlFor='addressline2'>Addresse Ligne 2</label>
+                            <label htmlFor='addresse2'>Addresse Ligne 2</label>
                             <input type="text" />
                         </div>
 
                         <div className='form-group'>
-                            <label htmlFor='addressline3'>Addresse Ligne 3</label>
+                            <label htmlFor='addresse3'>Addresse Ligne 3</label>
                             <input type="text" />
                         </div>
                     </div>
@@ -109,3 +109,4 @@ const UserAddress = () => {
 }
 
 export default UserAddress
+//&

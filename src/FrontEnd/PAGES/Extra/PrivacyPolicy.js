@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
     <div className='extrapage'>
       <Navbar />
       <SingleBanner
-        bannerimage='https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1630&q=80'
+        bannerimage='https://www.campusfrance.org/sites/default/files/styles/mobile_visuel_principal_page/public/medias/images/2017-09/ETUD_4_conseils%20pratiques%20pour%20se%20nourrir%20%28mise%20en%20avant%29.jpg?itok=PafavplB'
         heading="Politique de confidentialité"
       />
       <div className='pgcont1'>
@@ -81,3 +81,4 @@ Si le traitement de vos informations de notre part ne vous apporte pas satisfact
 }
 
 export default PrivacyPolicy
+//&

@@ -5,6 +5,20 @@ import img1 from '../../ASSETS/Images/1.png'
 import img2 from '../../ASSETS/Images/2.png'
 import img3 from '../../ASSETS/Images/3.png'
 import img4 from '../../ASSETS/Images/4.png'
+import img5 from '../../ASSETS/Images/5.png'
+import img6 from '../../ASSETS/Images/6.png'
+import img7 from '../../ASSETS/Images/7.png'
+import img8 from '../../ASSETS/Images/8.png'
+import img9 from '../../ASSETS/Images/9.png'
+import img10 from '../../ASSETS/Images/10.png'
+import img11 from '../../ASSETS/Images/11.png'
+import img12 from '../../ASSETS/Images/12.png'
+import img13 from '../../ASSETS/Images/13.png'
+import img14 from '../../ASSETS/Images/14.png'
+import img15 from '../../ASSETS/Images/15.png'
+import img16 from '../../ASSETS/Images/16.png'
+import img17 from '../../ASSETS/Images/17.png'
+import img18 from '../../ASSETS/Images/18.png'
 import Footer1 from '../../COMPONENTS/Footer/Footer1'
 import Footer2 from '../../COMPONENTS/Footer/Footer2'
 import Navbar from '../../COMPONENTS/Navbar/Navbar'
@@ -25,12 +39,12 @@ const ProductPage = () => {
             "Data": [
                 {
                     "ProductId": 1,
-                    "ProductName": "Product 1",
-                    "ProductDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "ProductName": "Sushis",
+                    "ProductDescription": "saumon, thon, avocat, crevettes et concombres",
                     "ProductImage": [
                         {
                             id: 1,
-                            image: img1
+                            image: img9
                         },
                         {
                             id: 2,
@@ -38,7 +52,7 @@ const ProductPage = () => {
                         },
                         {
                             id: 3,
-                            image: img3
+                            image: img5
                         }
                     ],
                     "ProductCode": "P1",
@@ -51,8 +65,8 @@ const ProductPage = () => {
                     "ProductMaterial": "Material 1",
                     "ProductQuantity": 10,
                     "ProductUnit": "Unit 1",
-                    "ProductPrice": 100,
-                    "SalesPrice": 80,
+                    "ProductPrice": 20,
+                    "SalesPrice": 16,
                     "ProductDiscount": 20,
                     "ProductDiscountType": "Percentage",
                     "ProductTax": 20,
@@ -70,27 +84,27 @@ const ProductPage = () => {
                     "ProductReviews": [
                         {
                             "ReviewId": 1,
-                            "Name": "Harshal Jain",
+                            "Name": "Mohamed Belgacem",
                             "Email": "",
                             "Rating": 5,
-                            "Date": "2021-08-01",
-                            "Review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                            "Date": "30-06-2023",
+                            "Review": "C'était super bon, le service est rapide et je ne peux que vous recommander DeliDash. Foncez !",
                         },
                         {
                             "ReviewId": 2,
-                            "Name": "Viraj",
+                            "Name": "Redouane Boukheyi",
                             "Email": "",
-                            "Rating": 1,
-                            "Date": "2021-08-01",
-                            "Review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+                            "Rating": 5,
+                            "Date": "30-06-2023",
+                            "Review": "IN-CRO-YABLE. Je suis fan j'adore ! Recommandé à 100% !!!",
                         },
                         {
                             "ReviewId": 3,
-                            "Name": "Harshal Jain",
+                            "Name": "Yaovi Soglo",
                             "Email": "",
-                            "Rating": 4,
-                            "Date": "2021-08-01",
-                            "Review": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                            "Rating": 5,
+                            "Date": "27-06-2023",
+                            "Review": "Excellent, bravo",
                         }
                     ]
                 }
@@ -601,7 +615,7 @@ const ProductPage = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                         </svg>
-                        Go Back
+                        Retour
                     </button>
                 </Link>
 
@@ -664,14 +678,14 @@ const ProductPage = () => {
                                 addtocart()
                             }}
                         >
-                            Add to Cart
+                            Ajouter au panier
                         </button>
                         <button
                             onClick={() => {
                                 alert('Buy Now')
                             }}
                         >
-                            Buy Now
+                            Acheter maintenant
                         </button>
                     </div>
                 </div>
@@ -696,7 +710,7 @@ const ProductPage = () => {
                                         setshowreview(true)
                                     }
                                 }
-                            >Reviews</button>
+                            >Retours</button>
                         </div>
                         :
                         <div className='tabs'>
@@ -719,7 +733,7 @@ const ProductPage = () => {
                                         setshowreview(true)
                                     }
                                 }
-                            >Reviews</button>
+                            >Retours</button>
                         </div>
                 }
                 {
@@ -830,7 +844,7 @@ const ProductPage = () => {
 
 
                             <div className='allreview'>
-                                <h1 className='head1'>Product Reviews</h1>
+                                <h1 className='head1'>Retour des commandes</h1>
                                 {productdata.ProductReviews &&
                                     productdata.ProductReviews.map((item, index) => {
                                         return (
@@ -936,10 +950,10 @@ const ProductPage = () => {
             </div>
 
             <div className='slidercont'>
-                <ProductsSlider products={products} categoryname='Related Products' />
+                <ProductsSlider products={products} categoryname='Produits similaires' />
             </div>
             <div className='slidercont'>
-                <ProductsSlider products={products} categoryname='Explore More' />
+                <ProductsSlider products={products} categoryname='Explorer plus' />
             </div>
             <Footer1 />
             <Footer2 />
@@ -948,3 +962,4 @@ const ProductPage = () => {
 }
 
 export default ProductPage
+//&

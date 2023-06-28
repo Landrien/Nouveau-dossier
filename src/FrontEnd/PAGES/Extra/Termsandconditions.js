@@ -14,7 +14,7 @@ const Termsandconditions = () => {
     <div className='extrapage'>
       <Navbar />
       <SingleBanner
-        bannerimage='https://images.unsplash.com/photo-1448697138198-9aa6d0d84bf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80'
+        bannerimage='https://www.herta.fr/sites/default/files/styles/scale_crop_1120_490/public/herta_fr_articles/herta-article-drunch-header.jpg.webp?itok=KXp9l5dp'
         heading="Termes et conditions"
       />
 
@@ -80,3 +80,5 @@ Des fonctionnalités spécifiques sur les applications mobiles et/ou les sites i
 }
 
 export default Termsandconditions
+
+//&

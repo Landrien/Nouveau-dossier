@@ -15,7 +15,7 @@ const About = () => {
         <Navbar reloadnavbar={false}/>
         <SingleBanner
         heading="Fonctionnement de DeliDash"
-        bannerimage= 'https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+        bannerimage= 'https://img.freepik.com/photos-premium/arrangement-plat-hamburgers-pizza_23-2148308817.jpg'
         />
         <div className='pgleft pgcommon'>
             <img src='https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_531,h_354/v1588108653/assets/c5/1351dc-f9b7-4ab3-a184-b767a9c7539f/original/Browse_content-item-DESKTOP-TABLET-MOBILE-3x2.jpg' alt='noimg' />
@@ -50,3 +50,5 @@ const About = () => {
 }
 
 export default About
+
+//&

@@ -4,7 +4,7 @@ import './LegalNotice.css'
 const LegalNotice = () => {
     return (
         <div className='legalnotice'>
-            <h1 className='mainhead1'>Legal Notice</h1>
+            <h1 className='mainhead1'>Mention légale</h1>
 
             <div className='legalnoticein'>
                 <h2>1. À propos de DeliDash et de notre site</h2>
@@ -64,3 +64,4 @@ Si vous achetez un Article non périssable auprès d’un de nos Partenaires, ce
 }
 
 export default LegalNotice
+//&

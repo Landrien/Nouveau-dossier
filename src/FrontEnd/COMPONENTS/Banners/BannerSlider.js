@@ -7,8 +7,8 @@ const BannerSlider = () => {
         {
             id: 1,
             image: 'https://oaformation.com/wp-content/uploads/2019/10/Ouvrir-un-fast-food-1.jpg',
-            title: 'Votre repas à votre porte ou où vous voulez',
-            description: 'Choisissez, commander, profitez',
+            title: 'Du ventre à la porte, on assure le transport !',
+            description: 'Choisissez, commandez, profitez',
             button: 'htttps://www.google.com'
         },
         {
@@ -53,3 +53,4 @@ const BannerSlider = () => {
 }
 
 export default BannerSlider
+//&

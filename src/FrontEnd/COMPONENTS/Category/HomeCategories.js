@@ -32,7 +32,7 @@ const HomeCategories = () => {
           <h1>
             Asiatique
           </h1>
-          <p> Acheter specialité asiatique maintenant</p>
+          <p> Acheter des specialités asiatiques maintenant</p>
         </div>
       </div>
       <div className='container'>
@@ -49,3 +49,4 @@ const HomeCategories = () => {
 }
 
 export default HomeCategories
+//&

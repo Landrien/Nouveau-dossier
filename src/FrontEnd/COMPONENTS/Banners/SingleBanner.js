@@ -14,3 +14,4 @@ const SingleBanner = ({bannerimage, heading}) => {
 }
 
 export default SingleBanner
+//&
