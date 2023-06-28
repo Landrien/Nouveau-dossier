@@ -8,10 +8,9 @@ const Footer1 = () => {
                 <img src={veges} alt='veges' />
             </div>
             <div className='right'>
-                <h1>Fresh Vegetables & Fruits at your doorstep
+                <h1>Votre repas livré où vous voulez
                 </h1>
-                <p>We deliver fresh vegetables & fruits at your doorstep.
-                    We deliver fresh vegetables & fruits at your doorstep.
+                <p>Nous livrons des repas chaud ou froid à votre porte.
                 </p>
             </div>
         </div>
