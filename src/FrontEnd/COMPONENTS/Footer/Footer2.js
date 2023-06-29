@@ -22,8 +22,6 @@ const Footer2 = () => {
           <Link to='/contact' className='stylenone'>
             <p>Contactez-nous</p>
           </Link>
-          <p>À propos de l’équipe</p>
-          <p>Soutien à la clientèle</p>
         </div>
         <div className='f2'>
 
@@ -34,16 +32,12 @@ const Footer2 = () => {
           <Link to='/termsandconditions' className='stylenone'>
             <p>Termes et conditions</p>
           </Link>
-          <p>Politique de retour</p>
-          <p>Plan du site</p>
-
+          
         </div>
         <div className='f2'>
           <h3>Communauté</h3>
           <p>Annonces</p>
-          <p>Centre de réponses</p>
           <p>Forums de discussion</p>
-          <p>Donner des œuvres</p>
         </div>
         <div className='f2'>
         <h3>Abonnez-vous maintenant</h3>

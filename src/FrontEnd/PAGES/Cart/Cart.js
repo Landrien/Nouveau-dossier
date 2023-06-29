@@ -34,8 +34,8 @@ const Cart = () => {
       })
       // console.log(tempsubtotal)
       setsubtotal(tempsubtotal)
-      setshipping(80)
-      settax(tempsubtotal * 0.18 + 80 * 0.10)
+      setshipping(7)
+      settax(tempsubtotal * 0.18 + 7 * 0.10)
       setreloadnavbar(!reloadnavbar)
     }
     else {
@@ -64,15 +64,15 @@ const Cart = () => {
 
   const savedaddress = [
     {
-      AddressLine1: "Address Line 1",
-      AddressLine2: "Address Line 2",
-      AddressLine3: "Address Line 3",
+      AddressLine1: "Addresse 1",
+      AddressLine2: "Addresse 2",
+      AddressLine3: "Addresse 3",
       postalcode: "123456"
     },
     {
-      AddressLine1: "Address Line 1",
-      AddressLine2: "Address Line 2",
-      AddressLine3: "Address Line 3",
+      AddressLine1: "Addresse 1",
+      AddressLine2: "Addresse 2",
+      AddressLine3: "Addresse 3",
       postalcode: "123456"
     }
   ]
@@ -413,7 +413,7 @@ const Cart = () => {
             <div className='paymenttypes'>
               <div className='c1'>
                 <input type='radio' name='payment' id='payment1' />
-                <img src='https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png'
+                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqYiBwwpwgKZSlG8WISLSmVun7_VhL9-R7rA&usqp=CAU'
                   alt='paypal'
                 />
               </div>
@@ -425,7 +425,7 @@ const Cart = () => {
               </div>
               <div className='c1'>
                 <input type='radio' name='payment' id='payment1' />
-                <img src='https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_100x26.png'
+                <img src='https://mediaps02.atoustickers.com/19751-home_default/autocollant-sticker-paiement-par-carte-visa-accepte-10x6cm.jpg'
                   alt='paypal'
                 />
               </div>
