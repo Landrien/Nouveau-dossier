@@ -451,13 +451,13 @@ const AllProduct = () => {
                     products.map((item,index) => {
                         return (
                             
-                            <ModifyProductCard data={item} key={index} />
+                            <ProductCard data={item} key={index} />
                             
 
                         )
                     })
                 }
-                <AddProductCard/>
+                
             </div>
         </div>
     )
@@ -465,3 +465,6 @@ const AllProduct = () => {
 
 export default AllProduct
 //&
+
+// ModifyProductCard data={item} key={index} />
+// <AddProductCard/>
