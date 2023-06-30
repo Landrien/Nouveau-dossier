@@ -1,8 +1,9 @@
 const http = require('http');
 const express = require('express');
 const mongoose = require('mongoose');
-const Router = require("./routesArticle")
-
+const RouterCommande = require("./BDD/MongoDB/Commande/routesCommande")
+const RouterMenu = require("./BDD/MongoDB/Menu/routesMenu")
+const RouterArticle = require("./BDD/MongoDB/Article/routesArticle")
 
 const app = express();
 
@@ -33,10 +34,13 @@ db.once("open", function () {
   console.log("Connected successfully");
 });
 
-app.use(Router);
+app.use(RouterCommande);
+app.use(RouterMenu);
+app.use(RouterArticle);
 
-app.listen(3000, () => {
-  console.log("Server is running at port 3000");
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Serveur démarré sur le port ${port}`);
 });
 
 /*app.use((req, res, next) => {

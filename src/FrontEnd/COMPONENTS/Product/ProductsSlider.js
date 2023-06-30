@@ -65,11 +65,16 @@ const ProductsSlider = ({ products, categoryname }) => {
                 {products.map((item,index)=>{
                     return (
                         <ProductCard data={item} key={index} />
+ 
                     )
                 })}
+                
             </Carousel>
         </div >
     )
 }
 
 export default ProductsSlider
+
+//<ProductCard data={item} key={index} />
+//<AddProductCard data={item} key={index} />

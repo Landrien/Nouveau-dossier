@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductCard from './ProductCard'
+import ModifyProductCard from './ModifyProductCard'
 import AddProductCard from './AddProductCard'
 import img1 from '../../ASSETS/Products/1.png'
 import img2 from '../../ASSETS/Products/2.png'
@@ -12,8 +12,7 @@ import riz from '../../ASSETS/Images/riz.png'
 import salade from '../../ASSETS/Images/salade.png'
 import tacos from '../../ASSETS/Images/tacos.png'
 import './AllProduct.css'
-import ModifyProductCard from './ModifyProductCard'
-const AllProduct = () => {
+const AllProduct_Restaurateur = () => {
     const products = [
         {
             "ProductId": 1,
@@ -463,5 +462,5 @@ const AllProduct = () => {
     )
 }
 
-export default AllProduct
+export default AllProduct_Restaurateur
 //&

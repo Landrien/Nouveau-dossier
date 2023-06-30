@@ -10,10 +10,6 @@ const MenuSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  Description: {
-    type: String,
-    required: true,
-  },
   Prix: {
     type: Number,
     required: true,

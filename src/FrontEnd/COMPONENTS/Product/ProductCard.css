@@ -19,6 +19,19 @@
 
 }
 
+.product .s1 svg {
+    width: 50%; /* Garantit que l'image ne dépasse pas la largeur de la case */
+    height: 100%; /* Garantit que l'image ne dépasse pas la hauteur de la case */
+    display: block; /* Permet de gérer la marge automatique horizontale */
+    margin: auto; /* Centre l'image horizontalement */
+    object-fit: contain;
+    transition: all 0.5s ease;
+}
+
+.product .s1 svg:hover {            /* Changé */
+    scale: 1.1;
+}
+
 .product .s1 img {
     width: 100%;
     height: 100%;
